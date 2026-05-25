@@ -176,7 +176,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return f"<h1>JUBAYER Hosting Test Server</h1><p>Running at {time.ctime()}</p>"
+    return f"<h1>MOD-X Hosting Test Server</h1><p>Running at {time.ctime()}</p>"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
@@ -390,7 +390,7 @@ def login():
     <body>
         <div class="particles" id="particles"></div>
         <div class="login-container">
-            <div class="logo">JUBAYER Hosting</div>
+            <div class="logo">MOD-X Hosting</div>
             <div class="tagline">Unlimited Server Hosting - Free Forever</div>
             <form method="POST">
                 <input type="text" name="username" placeholder="Enter Username" required>
@@ -721,8 +721,8 @@ if __name__ == "__main__":
     # Print startup info
     print(f"""
     ╔══════════════════════════════════════════╗
-    ║      JUBAYER Hosting - Unlimited Servers    ║
-    ║           Free Forever Edition           ║
+    ║         MOD-X Hosting - Unlimited Servers       ║
+    ║           Free Forever Edition                  ║
     ╠══════════════════════════════════════════╣
     ║  • Server: http://0.0.0.0:{port}        ║
     ║  • Upload Folder: {UPLOAD_FOLDER}       ║
